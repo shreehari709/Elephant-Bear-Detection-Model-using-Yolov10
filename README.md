@@ -1,4 +1,6 @@
 # Elephant-Bear-Detection-Model-using-Yolov10
+![val_batch2_pred](https://github.com/user-attachments/assets/091979f8-ff27-4a57-bb92-9db7aba27063)
+
 YOLOv10-N, built on the Ultralytics Python package, is optimized for real-time object detection in resource-constrained environments. By eliminating non-maximum suppression and optimizing model components, Ideal for houses near forests, it can alert people about wild animal attacks like elephants and bears.
 Requirements for Elephant & Bear Detection Model Using YOLOv10-N
 1. Hardware:
@@ -43,3 +45,4 @@ Hyperparameters:
 Batch size
 Learning rate
 Number of epochs = 350
+![results](https://github.com/user-attachments/assets/bebb80b2-d418-46cb-892f-c053b8d3684c)
