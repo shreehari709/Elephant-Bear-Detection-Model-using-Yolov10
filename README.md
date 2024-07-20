@@ -6,38 +6,40 @@ GPU: GeForce GTX 1650 with 4GB VRAM
 CPU: Modern multi-core processor
 RAM: Minimum 8GB, recommended 16GB or higher
 Storage: Sufficient space for dataset and model storage (at least 50GB)
-2. Software:
+![Screenshot 2024-07-20 222832](https://github.com/user-attachments/assets/8d71b7f8-948a-4a1f-aa11-4e0f0edbe3a0)
+
+
+
+3. Software:
 Operating System: Windows 10/11, Ubuntu 20.04 or later
-Python Version: Python 3.7 or later
+Python Version: Python 3.10 or later
 Dependencies:
 Ultralytics Python package
-OpenCV
-Numpy
-Pandas
 Torch (PyTorch)
 CVAT for image annotation
-3. Dataset:
+
+5. Dataset:
 Source: Kaggle wild animal dataset
 Content: Images and videos of wild animals, specifically bears and elephants
 Annotation Tool: CVAT (Computer Vision Annotation Tool)
-4. Model:
+6. Model:
 Framework: YOLOv10-N (Nano version)
 Features:
 Real-time object detection
 No Non-Maximum Suppression (NMS)
 Optimized architecture for resource-constrained environments
-5. Environment Setup:
+7. Environment Setup:
 Python Libraries Installation:
 bash
 Copy code
 pip install ultralytics opencv-python numpy pandas torch
 CVAT Setup:
 Install and configure CVAT for annotating the dataset.
-6. Training:
+8. Training:
 Training Environment: Preferably on a GPU-enabled machine
 Dataset Preparation: Annotate the images using CVAT and format them as required by YOLOv10-N
 Model Training: Use the YOLOv10-N framework for training on the annotated dataset
 Hyperparameters:
 Batch size
 Learning rate
-Number of epochs
+Number of epochs = 350
